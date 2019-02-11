@@ -7,7 +7,7 @@ def fib(months, offsprings):
         return 1
 
 if __name__ == "__main__":
-    print(fib(29, 5))
+    print(fib(6, 1))
 
 # best solution (timewise)
 # non-recursive

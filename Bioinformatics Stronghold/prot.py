@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 # my solution
 if __name__ == '__main__':
     input_lines = open('rosalind_prot.txt', 'r').read()
