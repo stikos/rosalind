@@ -1,6 +1,6 @@
 # my solution
-if __name__ == '__main__':
-    input_lines = open('rosalind_prot.txt', 'r').read()
+def make_protein(splice_in=None):
+    input_lines = splice_in or open('rosalind_prot.txt', 'r').read()
 
     table = '''UUU F      CUU L      AUU I      GUU V
             UUC F      CUC L      AUC I      GUC V
