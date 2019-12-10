@@ -2,7 +2,7 @@
 from math import log10
 
 if __name__ == '__main__':
-    bpairs, probs = open('rosalind_sseq.txt', 'r').read().split("\n")[0:2]
+    bpairs, probs = open('rosalind_tree.txt', 'r').read().split("\n")[0:2]
     probs = list(map(float, probs.split(' ')))
 
     final = ""

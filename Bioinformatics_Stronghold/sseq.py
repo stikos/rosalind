@@ -2,7 +2,7 @@
 from fasta_in import get_input
 
 if __name__ == '__main__':
-    bpairs, check = get_input('rosalind_sseq.txt')
+    bpairs, check = get_input('rosalind_tree.txt')
 
     res = [bpairs.index(check[0]) + 1]
     for base in check[1:]:
